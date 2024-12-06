@@ -70,7 +70,7 @@ Route::controller(Auth\SuperAdminLoginController::class)->group(function () {
 
 
 
-
+ 
 //landing page routes
 Route::controller(landlord\LandingPageController::class)->group(function () {
     if(empty(env('LANDLORD_DB'))) {
