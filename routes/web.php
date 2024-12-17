@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\landlord\PaymentController;
-use App\Http\Controllers\SaasInstallController;
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
+use App\Http\Controllers\SaasInstallController;
+use App\Http\Controllers\landlord\PaymentController;
 
 
 
